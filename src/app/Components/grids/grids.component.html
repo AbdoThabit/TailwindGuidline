@@ -1,0 +1,46 @@
+<div
+  class="colors-section bg-violet-700 flex-col flex rounded-lg p-8 h-max font-sans space-y-2"
+>
+  <div class="title">
+    <span class="text-white text-3xl">Grids : </span>
+    <!-- <p class="text-white break-words my-2">
+      Tailwind provides a comprehensive set of color utilities out of the box.
+      Each color is available in multiple shades, typically ranging from light
+      (50) to dark (950) for example here's the blue color with its all ranges
+    </p> -->
+  </div>
+  <h1 class="text-white">
+    grid grid-cols-4 gap-4 last one has col-span-3 col-start-2
+  </h1>
+  <div class="max-w-max rounded-md grid grid-cols-4 gap-4 bg-red-100">
+    <div class="w-20 h-10 bg-red-300 rounded-md">01</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">02</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">03</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">04</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">05</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">06</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">07</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">08</div>
+    <div class="h-10 bg-red-300 rounded-md col-span-3 col-start-2">09</div>
+  </div>
+
+  <h1 class="text-white">
+    grid-rows-3 gap-4 grid-flow-col last one has row-start-2 row-end-4 or
+    row-span-2
+  </h1>
+  <div
+    class="rounded-md max-w-max grid grid-rows-3 gap-4 grid-flow-col bg-red-100"
+  >
+    <div class="w-20 h-10 bg-red-300 rounded-md">01</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">02</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">03</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">04</div>
+
+    <div class="w-20 h-10 bg-red-300 rounded-md">05</div>
+
+    <div class="w-20 h-10 bg-red-300 rounded-md">06</div>
+    <div class="w-20 h-10 bg-red-300 rounded-md">07</div>
+
+    <div class="bg-red-300 rounded-md row-span-2">8</div>
+  </div>
+</div>

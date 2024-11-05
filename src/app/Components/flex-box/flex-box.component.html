@@ -1,0 +1,78 @@
+<div
+  class="colors-section bg-violet-700 flex-col flex rounded-lg p-8 h-max font-sans space-y-2"
+>
+  <div class="title">
+    <span class="text-white text-3xl">FlexBox : </span>
+    <!-- <p class="text-white break-words my-2">
+      Tailwind provides a comprehensive set of color utilities out of the box.
+      Each color is available in multiple shades, typically ranging from light
+      (50) to dark (950) for example here's the blue color with its all ranges
+    </p> -->
+  </div>
+  <h1 class="text-white">row</h1>
+  <div class="parent flex justify-between">
+    <div class="basis-20 bg-red-100">1</div>
+    <div class="basis-20 bg-red-100">2</div>
+    <div class="basis-20 bg-red-100">3</div>
+    <div class="basis-20 bg-red-100">4</div>
+  </div>
+  <h1 class="text-white">flex-row-reverse</h1>
+  <div class="parent flex flex-row-reverse justify-between">
+    <div class="basis-20 bg-red-100">1</div>
+    <div class="basis-20 bg-red-100">2</div>
+    <div class="basis-20 bg-red-100">3</div>
+    <div class="basis-20 bg-red-100">4</div>
+  </div>
+  <div class="flex justify-around">
+    <div class="parent flex flex-col justify-between space-y-2">
+      <h1 class="text-white">flex-col</h1>
+      <div class="size-20 bg-red-100">1</div>
+      <div class="size-20 bg-red-100">2</div>
+      <div class="size-20 bg-red-100">3</div>
+      <div class="size-20 bg-red-100">4</div>
+    </div>
+
+    <div class="flex flex-col">
+      <h1 class="text-white">col-reverse</h1>
+      <div class="parent flex flex-col-reverse justify-between space-y-2">
+        <div class="size-20 bg-red-100">1</div>
+        <div class="size-20 bg-red-100">2</div>
+        <div class="size-20 bg-red-100">3</div>
+        <div class="size-20 bg-red-100">4</div>
+      </div>
+    </div>
+  </div>
+  <h1 class="text-white">order-last --box2 on hover:order-last</h1>
+  <div class="flex justify-between ...">
+    <div class="bg-red-50 size-20 order-last">01</div>
+    <div class="bg-red-50 size-20 order-first hover:order-last">02</div>
+    <div class="bg-red-50 size-20">03</div>
+  </div>
+  <h1 class="text-white">box1-1/4 box-2-1/4 box3-1/4</h1>
+  <div class="flex flex-row space-x-1">
+    <div class="basis-1/4 bg-red-50 size-20">01</div>
+    <div class="basis-1/4 bg-red-50 size-20">02</div>
+    <div class="basis-1/2 bg-red-50 size-20">03</div>
+  </div>
+
+  <div class="flex space-x-2">
+    <div class="w-1/2">
+      <h1 class="text-white">Flex Wrap</h1>
+      <div class="parent flex justify-between flex-wrap space-x-1 space-y-1">
+        <div class="w-200 h-20 on bg-red-100 grow">1</div>
+        <div class="w-200 h-20 on bg-red-100 shrink-1">2</div>
+        <div class="w-200 h-20 on bg-red-100">3</div>
+        <div class="w-96 h-20 on bg-red-100">4</div>
+      </div>
+    </div>
+    <div class="w-1/2">
+      <h1 class="text-white">Flex no-Wrap</h1>
+      <div class="parent flex justify-between flex-nowrap space-x-1 space-y-1">
+        <div class="w-200 h-20 on bg-red-100 grow">1</div>
+        <div class="w-200 h-20 on bg-red-100 shrink-1">2</div>
+        <div class="w-200 h-20 on bg-red-100">3</div>
+        <div class="w-96 h-20 on bg-red-100">4</div>
+      </div>
+    </div>
+  </div>
+</div>

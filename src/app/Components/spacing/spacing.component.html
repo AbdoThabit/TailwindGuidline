@@ -1,0 +1,54 @@
+<div
+  class="colors-section bg-violet-700 flex-col flex rounded-lg p-8 h-max font-sans"
+>
+  <div class="title">
+    <span class="text-white text-3xl">Spacing & sizes: </span>
+    <p class="text-white text-base my-2">
+      Tailwind enables a lot of options for Spacings and sizes
+    </p>
+  </div>
+  <div class="margin-padding grid grid-cols-2 gap-2">
+    <div class="parent bg-red-300 w-full">
+      <div class="child bg-red-500 m-2 p-2 text-white">
+        some words some wordssome wordssome wordssome wordssome wordssome words
+      </div>
+    </div>
+    <div class="parent bg-red-300 w-full">
+      <div class="child bg-red-700 m-2 p-2 w-ful text-center text-white">
+        negative margin
+      </div>
+      <div
+        class="child bg-green-500 -my-6 m-2 opacity-55 p-2 text-center border-red-950 border-2 text-white"
+      >
+        div with negative y axis margin
+      </div>
+    </div>
+    <div class="parent bg-red-300 w-full flex">
+      <div class="child bg-red-500 w-2/5 text-center text-white">
+        2/5 of width
+      </div>
+      <div class="child bg-green-500 w-3/5 text-center text-white">
+        3/5 of width
+      </div>
+    </div>
+    <div class="parent bg-red-300 w-full">
+      <div class="child bg-red-500 h-2/5 text-center text-white">
+        2/5 of height
+      </div>
+      <div class="child bg-green-500 h-3/5 text-center text-white">
+        3/5 of height
+      </div>
+    </div>
+    <div class="min-w-min bg-gray-200 p-4">
+      This box will only be as wide as its content. (min-w-min)
+    </div>
+    <div class="max-w-max bg-gray-200 p-4">
+      This box will grow only as wide as its content. (max-w-max)
+    </div>
+    <div class="parent bg-red-300 w-full flex col-span-2 space-x-52">
+      <div class="bg-gray-200 p-4">first div</div>
+      free space
+      <div class="bg-gray-200 p-4">second div</div>
+    </div>
+  </div>
+</div>
